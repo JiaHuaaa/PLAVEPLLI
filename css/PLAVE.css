@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    margin-top: 41.6px;
+}
+#top{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+}
+#top ul{
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+#top ul li{
+    display: inline-block;
+}
+#top ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 11px 40px;
+}
+#top ul li a:hover{
+    color: rgb(8, 0, 128);
+}
+#top ul li.active a{
+    background-color: aliceblue;
+    color: rgb(170, 169, 224);
+}
+*{
+    padding:0;
+    margin:0;
+}
+
+.ALL{
+    background-image: url(../image/PLAVE.jpg);
+    background-position: 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+    height:720px;
+    width:100%;
+}
+
+.YEJUN{
+    background-image: url(../image/YEJUN.jpg);
+    background-position: 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+    height:680px;
+    width:100%;
+}
+.NOAH{
+    background-image: url(../image/NOAH.jpg);
+    background-position: 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+    height:680px;
+    width:100%;
+}
+.EUNHO{
+    background-image: url(../image/EUNHO.jpg);
+    background-position: 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+    height:680px;
+    width:100%;
+}
+.BONGGU{
+    background-image: url(../image/BONGGU.jpg);
+    background-position: 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+    height:680px;
+    width:100%;
+}
+.HAMIN{
+    background-image: url(../image/HAMIN.png);
+    background-position: 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+    height:680px;
+    width:100%;
+}
+.word{
+    position:relative;
+    top:600px;
+    font-size: 50px;
+    text-shadow: 1px 1px 0 #000,
+    -1px -1px 0 #000;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bolder;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+.ALL_bgg{
+    text-align: center;
+    font-size:30px;
+    font-weight: bolder;
+    height:100px;
+    line-height: 100px;
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+.bg_1{
+    text-align: center;
+    font-size:20px;
+    font-weight: 10px;
+    height:200px;
+    line-height: 50px;
+    background-color: rgb(71, 160, 233);
+    color:white;
+}
+.bg_2{
+    text-align: center;
+    font-size:20px;
+    font-weight: 10px;
+    height:200px;
+    line-height: 50px;
+    background-color: rgb(174, 71, 233);
+    color:white;
+}
+.bg_3{
+    text-align: center;
+    font-size:20px;
+    font-weight: 10px;
+    height:200px;
+    line-height: 50px;
+    background-color: rgb(255, 114, 208);
+    color:white;
+}
+.bg_4{
+    text-align: center;
+    font-size:20px;
+    font-weight: 10px;
+    height:200px;
+    line-height: 50px;
+    background-color: rgb(233, 71, 71);
+    color:white;
+}
+.bg_5{
+    text-align: center;
+    font-size:20px;
+    font-weight: 10px;
+    height:200px;
+    line-height: 50px;
+    background-color: rgb(69, 200, 91);
+    color:white;
+}
+h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeIn 2s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
